@@ -39,7 +39,8 @@
 
             for(int i = 0; i < 10; i++)
             {
-                Console.WriteLine(tab+num);
+                tab = tab + num;
+                Console.WriteLine(tab);
             }
                     
         }
